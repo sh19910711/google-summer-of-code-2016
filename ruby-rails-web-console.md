@@ -47,6 +47,26 @@ TBD
 
 ## 3. Milestones
 
+Here is a timeline:
+
+### 22 Apr. - 22 May.
+
+#### Milestone #0: TBD (Community Bonding Period):
+
+* TBD
+
+### 23 May. - 27 Jun.
+
+#### Milestone #1: TBD (First-Term)
+
+* TBD
+
+### 28 Jun. - 23 Aug.
+
+#### Milestone #2: TBD (Second-Term)
+
+* TBD
+
 ## 4. Experience
 
 * [rails/web-console#127](https://github.com/rails/web-console/pulls/127) - "Replace Session::INMEMORY_STORAGE with a class variable"
