@@ -21,6 +21,30 @@ and the main focus is to support "Auto-completion" feature in the console.
 
 ## 2. Description
 
+### Support Auto-completion
+
+TBD
+
+### Create More Browser Extensions
+
+TBD
+
+### Console Fired from Web API
+
+TBD
+
+### Decorate Well-Known Command Outputs
+
+TBD
+
+### Client-Side User Options Panel
+
+TBD
+
+### Context Viewer Panel
+
+TBD
+
 ## 3. Milestones
 
 ## 4. Experience
