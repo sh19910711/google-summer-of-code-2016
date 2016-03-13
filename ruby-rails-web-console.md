@@ -69,7 +69,10 @@ Here is a timeline:
 
 ## 4. Experience
 
-### GSoC 2015 (Last Year)
+### GSoC 2015
+
+Last year, I have developed a prototype of a Google Chrome browser extension, and
+have tackled the client-side testing environment.
 
 [@gsamokovarov](https://github.com/gsamokovarov) took enough time to review my submitting patches, and he gave me many
 valuable advices. In the process, I have had many rejects, but thanks to that
