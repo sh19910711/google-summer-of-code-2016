@@ -95,4 +95,31 @@ I had been able to write a pretty solid code as a whole.
 * [rails/web-console#160](https://github.com/rails/web-console/pulls/160) - "Update for i18n supports"
 * [rails/web-console#161](https://github.com/rails/web-console/pulls/161) - "Add X-Web-Console-Mount-Point"
 
-## 5. About me
+## 5. Others
+
+### Why are you interested in Open Source?
+
+It leads to well-designed software. Generated things from open source are not only
+source code but also approaches how to create software. There are many things to
+learn from open source. For example, I like testing software, and I have been able
+to learn many things about testing from open source.
+
+### How long will the project take? When can you begin?
+
+TBD
+
+### How much time do you expect to dedicate to this project? (weekly)
+
+I can dedicate 40 hours per a week on this project.
+
+### Where will you based during the summer?
+
+Aizu-wakamatsu, Japan.
+
+### What timezone will you be working in and what hours do you plan to work?
+
+I'm at JST, which is UTF+09:00.
+
+### Do you have any commitments for the summer? (holidays/work/summer courses)
+
+No.
