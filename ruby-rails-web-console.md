@@ -17,7 +17,9 @@ context of running code of the web app. It allows the developers to debug the we
 apps interactively.
 
 This project aims for making a better user experience for Web Console as a whole,
-and the main focus is to support "Auto-completion" feature in the console.
+and the main focus is to support "Auto-completion" feature in the console. For example,
+if people type the TAB key when typing the prefix of some commands, then it shows
+the list of possible commands from the prefix.
 
 ## 2. Description
 
