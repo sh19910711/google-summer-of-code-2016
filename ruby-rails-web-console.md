@@ -69,6 +69,14 @@ Here is a timeline:
 
 ## 4. Experience
 
+### GSoC 2015 (Last Year)
+
+[@gsamokovarov](https://github.com/gsamokovarov) took enough time to review my submitting patches, and he gave me many
+valuable advices. In the process, I have had many rejects, but thanks to that
+I had been able to write a pretty solid code as a whole.
+
+### Merged pull requests on rails/web-console
+
 * [rails/web-console#127](https://github.com/rails/web-console/pulls/127) - "Replace Session::INMEMORY_STORAGE with a class variable"
 * [rails/web-console#131](https://github.com/rails/web-console/pulls/131) - "Cleanup template scripts"
 * [rails/web-console#132](https://github.com/rails/web-console/pulls/132) - "Update .travis.yml for ruby-2.2.x"
