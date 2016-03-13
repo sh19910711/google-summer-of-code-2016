@@ -4,7 +4,7 @@
 
 - Name: Hiroyuki Sano
 - Email Address: sh19910711 at gmail.com
-- GitHub Username: https://github.com/sh19910711
+- GitHub Username: [@sh19910711](https://github.com/sh19910711)
 - College/University: University of Aizu, Japan
 - Subject/Major: Computer Science and Engineering
 
