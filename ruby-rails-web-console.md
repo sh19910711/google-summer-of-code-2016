@@ -27,10 +27,6 @@ the list of possible commands from the prefix.
 
 TBD
 
-### Create More Browser Extensions
-
-TBD
-
 ### Console Fired from Web API
 
 TBD
@@ -44,6 +40,10 @@ TBD
 TBD
 
 ### Context Viewer Panel
+
+TBD
+
+### Create More Browser Extensions
 
 TBD
 
