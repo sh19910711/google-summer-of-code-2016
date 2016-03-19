@@ -182,6 +182,64 @@ In the process, I have had many rejects, but thanks to that I had been able to w
 * [rails/web-console#160](https://github.com/rails/web-console/pull/160) - "Update for i18n supports"
 * [rails/web-console#161](https://github.com/rails/web-console/pull/161) - "Add X-Web-Console-Mount-Point"
 
+### Works
+
+Here is a brief information:
+
+- social-snippet (Ruby) # Working in Progress Now (but it should prove something of my skills)
+
+  This is my open source software written in Ruby.
+  It is a snippet manager for programming competitions.
+  * URL: https://social-snippet.github.io
+  * URL: https://github.com/social-snippet/social-snippet
+  * Sub Projects: https://github.com/social-snippet
+
+- duck-lang (C, Language)
+
+  A simple scripting language based on the idea of duck-typing.
+  I have added some language-syntax and tests.
+
+  * URL: https://github.com/gregtour/duck-lang
+
+- git-contest (Ruby, Git)
+
+  This is my open source software written in Ruby.
+  It is a Git extension for programming competitions (e.g, Google Code Jam).
+  * URL: https://github.com/sh19910711/git-contest
+  * Poster for "Ruby World Conference 2014" in Japan
+
+- git (C, Git)
+
+  Git is a free and open source distributed version control system.
+  I added small improvement [1] of git-fsck command.
+  * URL: http://git-scm.com/
+  * Commit: https://github.com/git/git/commit/effd12ec876df016d4346fee0d3d6bf31308fa11
+
+- tilt-fs (Ruby)
+
+  This is my open source software written in Ruby.
+  It is a userspace filesystem based on Tilt.
+  * URL: https://github.com/sh19910711/ruby-tilt-fs
+
+- search-plus (Chrome Extension)
+
+  This is my open source software (WIP).
+  It can find all tabs you're looking for.
+  * URL: https://chrome.google.com/webstore/detail/search-plus/cdpohbejnbclggljmoijjcpdhbaaijfm
+  * URL (WIP): https://github.com/sh19910711/crx-search-plus
+
+- Scrimmage/karma-slim-preprocessor (JavaScript, Testing)
+
+  Karma Plugin to compile slim to html on testing.
+  I added supports for command-line options.
+  * PR: https://github.com/Scrimmage/karma-slim-preprocessor/pull/3
+  * URL: https://github.com/Scrimmage/karma-slim-preprocessor
+
+- Other Projects and Activities
+
+  * GitHub: https://github.com/sh19910711
+  * RubyGems: https://rubygems.org/profiles/sh19910711
+
 ## 5. Others
 
 ### Why are you interested in Open Source?
