@@ -273,3 +273,9 @@ I'm at JST, which is UTF+09:00.
 ### Do you have any commitments for the summer? (holidays/work/summer courses)
 
 No.
+
+### Why do you want to participate and why should Ruby on Rails choose you?
+
+I need to participate GSoC because I have to earn money to live as a student.
+After GSoC, I want to keep contributing to Web Console and Ruby world (including
+Rails community).
