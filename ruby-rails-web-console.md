@@ -23,9 +23,9 @@ and the main focus is to support "Auto-completion" feature in the console.
 
 ### I. Support "auto-completion"
 
-It is a feature to to help typing commands. For example, if people type the TAB
-key when typing the prefix of some commands, then it shows the list of possible
-commands from the prefix.
+It is a feature to help typing commands. For example, if people type the TAB key
+when typing the prefix of some commands, then it shows the list of possible commands
+from the prefix.
 
 At first, to make it simpler, I will only support general parts:
 
@@ -97,7 +97,7 @@ into the head of the `<head>` tag as following:
 
 #### Extra task: Support a process of loading resources
 
-Supporting Web API is not convering "anywhere". We also need to support a process
+Supporting Web API is not covering "anywhere". We also need to support a process
 of loading resources by the `src` property of HTML tags (e.g., `<img>`, `<style>`).
 I guess that we can also hijack them in the similar way as Web API.
 
