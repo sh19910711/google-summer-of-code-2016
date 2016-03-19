@@ -242,6 +242,11 @@ Here is a brief information:
 
 ## 5. Others
 
+### Why did you choose this project?
+
+Basically, whatever, I am interested in the tools from debugging, since it allows
+me to eat my own dog food.
+
 ### Why are you interested in Open Source?
 
 It leads to well-designed software. Generated things from open source are not only
