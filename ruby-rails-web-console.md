@@ -70,6 +70,7 @@ into the head of the `<head>` tag as following:
 ```html
 <html>
   <head>
+    <!-- Inserted Script -->
     <script id="web-console-xhr">
       (function(open) {
         XMLHttpRequest.prototype.open = function(_args_) {
