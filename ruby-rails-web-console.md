@@ -97,9 +97,9 @@ into the head of the `<head>` tag as following:
 
 #### Extra task: Support a process of loading resources
 
-Supporting Web API is not covering "anywhere". We also need to support a process
-of loading resources by the `src` property of HTML tags (e.g., `<img>`, `<script>`).
-I guess that we can also hijack them in the similar way as Web API.
+Supporting Web API is not covering "anywhere". We also need to support loading resources
+by the `src` property of HTML tags (e.g., `<img>`, `<script>`). I guess that we can
+also hijack a process of them in the similar way as Web API.
 
 ### III. Built-in commands
 
