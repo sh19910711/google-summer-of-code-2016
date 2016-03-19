@@ -23,13 +23,13 @@ the list of possible commands from the prefix.
 
 ## 2. Description
 
-### Support Auto-completion
+### Support auto-completion
 
 TBD
 
 ![auto-completion](./auto-completion.svg.png)
 
-### Console Fired from Web API
+### Console fired from Web API
 
 Recently, Web Console have gotten to be able to spawn a console anywhere in a web
 app. However, it haven't supported requests like Web API yet, and so, precisely,
@@ -46,9 +46,9 @@ class Application < Rails::Application
 end
 ```
 
-#### Listening All Web API Accesses
+#### Listen Web API accesses
 
-If the above configuration is enabled, Web Console always inserts its script code
+If the configuration like above is enabled, Web Console always inserts its script code
 into the head of the `<head>` tag as following:
 
 ```html
@@ -86,19 +86,19 @@ It is watching all requests via XMLHttpRequest, and if the response header conta
 
 I guess that we can also hijack resources loaded by the `src` property.
 
-### Decorate Well-Known Command Outputs
+### Decorate well-known command outputs
 
 TBD
 
-### Client-Side User Options Panel
+### Client-side user options panel
 
 TBD
 
-### Context Viewer Panel
+### Context viewer panel
 
 TBD
 
-### Create More Browser Extensions
+### Create more browser extensions
 
 TBD
 
