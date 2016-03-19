@@ -258,7 +258,7 @@ to learn many things about testing from open source.
 
 TBD
 
-### How much time do you expect to dedicate to this project? (weekly)
+### How much time do you expect to dedicate to this project?
 
 I can dedicate 40 hours per a week on this project.
 
@@ -270,12 +270,12 @@ Aizu-wakamatsu, Japan.
 
 I'm at JST, which is UTF+09:00.
 
-### Do you have any commitments for the summer? (holidays/work/summer courses)
+### Do you have any commitments for the summer? (holidays/work/courses)
 
 No.
 
-### Why do you want to participate and why should Ruby on Rails choose you?
+### Why do you want to participate and why should Ruby org choose you?
 
 I need to participate GSoC because I have to earn money to live as a student.
-After GSoC, I want to keep contributing to Web Console and Ruby world (including
+After GSoC, I want to keep contributing to Web Console and Ruby org (including
 Rails community).
