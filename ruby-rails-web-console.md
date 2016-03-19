@@ -17,7 +17,7 @@ context of running code of the web app. It allows the developers to debug the we
 apps interactively.
 
 This project aims for making a better user experience for Web Console as a whole,
-and the main focus is to support "Auto-completion" feature in the console.
+and the main focus is to support "auto-completion" feature in the console.
 
 ## 2. Description
 
@@ -43,7 +43,7 @@ And next, I will try to support extra parts like `methods`.
 
 Recently, Web Console have gotten to be able to spawn a console anywhere in a web
 app. However, it haven't supported requests like Web API yet, and so, precisely,
-it's not true that we can call Web Console anywhere.
+it's not that we can call Web Console anywhere.
 
 #### config.web_console.anywhere
 
