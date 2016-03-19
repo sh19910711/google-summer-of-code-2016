@@ -39,7 +39,7 @@ And next, I will try to support extra parts like `methods`.
 
 ![auto-completion](./auto-completion.svg.png)
 
-### II. Console fired from Web API
+### II. Console fired from "anywhere"
 
 Recently, Web Console have gotten to be able to spawn a console anywhere in a web
 app. However, it haven't supported requests like Web API yet, and so, precisely,
@@ -56,7 +56,7 @@ class Application < Rails::Application
 end
 ```
 
-#### Listen Web API requests
+#### Support Web API
 
 First, Web Console is watching all requests via XMLHttpRequest, and if the response
 header contains the specific header for Web Console, then console is installed into
@@ -95,7 +95,7 @@ into the head of the `<head>` tag as following:
 </html>
 ```
 
-#### Console fired by loading resources (extra task)
+#### (Extra) Support a process of loading resources
 
 I guess that we can also hijack resources loaded by the `src` property.
 
