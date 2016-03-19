@@ -89,8 +89,12 @@ into the head of the `<head>` tag as following:
 </html>
 ```
 
-It is watching all requests via XMLHttpRequest, and if the response header contains
-`X-Web-Console-Session-Id`, then console is installed into the target element.
+First, Web Console is watching all requests via XMLHttpRequest, and if the response
+header contains the specific header for Web Console, then console is installed into
+the target element.
+
+Last year, I have added `X-Web-Console-Session-Id`, and so we can use this header
+to detect either the request is fired the `console` method.
 
 #### Console fired by loading resources (extra task)
 
