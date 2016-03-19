@@ -118,7 +118,7 @@ TBD
 
 TBD
 
-### IV. Other stuffs
+### IV. Extra stuffs
 
 #### Create more browser extensions
 
