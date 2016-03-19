@@ -27,6 +27,8 @@ the list of possible commands from the prefix.
 
 TBD
 
+![auto-completion](./auto-completion.svg.png)
+
 ### Console Fired from Web API
 
 TBD
