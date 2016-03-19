@@ -58,7 +58,13 @@ end
 
 #### Listen Web API requests
 
-If the configuration like above is enabled, Web Console always inserts its script code
+First, Web Console is watching all requests via XMLHttpRequest, and if the response
+header contains the specific header for Web Console, then console is installed into
+the target element. Last year, I have added "`X-Web-Console-Session-Id`" as a custom
+header for browser extensions, and so we can use this header to detect either the
+`console` method is fired.
+
+And so, if the configuration like above is enabled, Web Console always inserts its script code
 into the head of the `<head>` tag as following:
 
 ```html
@@ -88,12 +94,6 @@ into the head of the `<head>` tag as following:
   </body>
 </html>
 ```
-
-First, Web Console is watching all requests via XMLHttpRequest, and if the response
-header contains the specific header for Web Console, then console is installed into
-the target element. Last year, I have added "`X-Web-Console-Session-Id`" as a custom
-header for browser extensions, and so we can use this header to detect either the
-`console` method is fired.
 
 #### Console fired by loading resources (extra task)
 
