@@ -102,7 +102,7 @@ Supporting Web API is not covering "anywhere". We also need to support loading r
 by the `src` property of HTML tags (e.g., `<img>`, `<script>`). I guess that we can
 also hijack a process of them in the similar way as Web API.
 
-### III. Add built-in commands and design its architecture
+### III. Create built-in commands and its architecture
 
 TBD
 
