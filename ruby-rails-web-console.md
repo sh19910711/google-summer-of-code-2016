@@ -31,7 +31,53 @@ TBD
 
 ### Console Fired from Web API
 
-TBD
+Recently, Web Console have gotten to be able to spawn a console anywhere in a web
+app. However, it haven't supported requests like Web API yet, and so, precisely,
+it's not true that we can call Web Console anywhere.
+
+In order to fire the `console` method from anywhere, I will add a configuration as
+following:
+
+```ruby
+class Application < Rails::Application
+  config.web_console.anywhere = true
+end
+```
+
+If the above configuration is enabled, Web Console always inserts its script code
+as following:
+
+```html
+<!doctype html>
+<html>
+  <head>
+    ...
+    <script id="web-console-xhr">/* the script is below */</script>
+  </head>
+  <body>
+    ...
+    <div id="console"></div>
+  </body>
+</html>
+```
+
+```js
+// <script id="web-console-xhr"></script>
+(function(open) {
+  XMLHttpRequest.prototype.open = function(_args_) {
+    this.addEventListener('readystatechange', function() {
+      if (this.readyState === 4) {
+        var header = 'X-Web-Console-Session-Id';
+        var sessionId = this.getResponseHeader(header);
+        if (sessionId) {
+          REPLConsole.installInto('console');
+        }
+      }
+    }, false);
+    open.apply(this, arguments);
+  };
+})(XMLHttpRequest.prototype.open);
+```
 
 ### Decorate Well-Known Command Outputs
 
