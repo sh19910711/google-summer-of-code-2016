@@ -27,10 +27,11 @@ the list of possible commands from the prefix.
 
 I will support general parts in first:
 
-* keywords
-* objects
-* methods
-* constants
+* `keywords`
+* `objects`
+* `constants`
+
+And next, I will try to support extra parts like `methods`.
 
 #### Sketch of use cases
 
