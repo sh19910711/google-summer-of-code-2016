@@ -158,11 +158,9 @@ Here is a timeline:
 ### GSoC 2015
 
 Last year, I have developed a prototype of a Google Chrome browser extension, and
-have tackled the client-side testing environment.
-
-[@gsamokovarov](https://github.com/gsamokovarov) took enough time to review my submitting patches, and he gave me many
-valuable advices. In the process, I have had many rejects, but thanks to that
-I had been able to write a pretty solid code as a whole.
+have tackled the client-side testing environment. My mentor [@gsamokovarov](https://github.com/gsamokovarov) took
+enough time to review my submitting patches, and he gave me many valuable advices.
+In the process, I have had many rejects, but thanks to that I had been able to write a pretty solid code as a whole.
 
 ### Merged pull requests on rails/web-console
 
