@@ -35,14 +35,18 @@ Recently, Web Console have gotten to be able to spawn a console anywhere in a we
 app. However, it haven't supported requests like Web API yet, and so, precisely,
 it's not true that we can call Web Console anywhere.
 
-In order to fire the `console` method from anywhere, I will add a configuration as
-following:
+#### config.web_console.anywhere
+
+In order to acutually fire the `console` method from anywhere, I will add
+a configuration as following:
 
 ```ruby
 class Application < Rails::Application
   config.web_console.anywhere = true
 end
 ```
+
+#### Listening All Web API Accesses
 
 If the above configuration is enabled, Web Console always inserts its script code
 into the head of the `<head>` tag as following:
@@ -74,6 +78,13 @@ into the head of the `<head>` tag as following:
   </body>
 </html>
 ```
+
+It is watching all requests via XMLHttpRequest, and if the response header contains
+`X-Web-Console-Session-Id`, then console is installed into the target element.
+
+#### Console fired by loading resources (extra task)
+
+I guess that we can also hijack resources loaded by the `src` property.
 
 ### Decorate Well-Known Command Outputs
 
