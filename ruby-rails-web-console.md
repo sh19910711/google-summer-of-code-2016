@@ -45,38 +45,34 @@ end
 ```
 
 If the above configuration is enabled, Web Console always inserts its script code
-as following:
+into the head of the `<head>` tag as following:
 
 ```html
-<!doctype html>
 <html>
   <head>
+    <script id="web-console-xhr">
+      (function(open) {
+        XMLHttpRequest.prototype.open = function(_args_) {
+          this.addEventListener('readystatechange', function() {
+            if (this.readyState === 4) {
+              var header = 'X-Web-Console-Session-Id';
+              var sessionId = this.getResponseHeader(header);
+              if (sessionId) {
+                REPLConsole.installInto('console');
+              }
+            }
+          }, false);
+          open.apply(this, arguments);
+        };
+      })(XMLHttpRequest.prototype.open);
+    </script>
     ...
-    <script id="web-console-xhr">/* the script is below */</script>
   </head>
   <body>
     ...
     <div id="console"></div>
   </body>
 </html>
-```
-
-```js
-// <script id="web-console-xhr"></script>
-(function(open) {
-  XMLHttpRequest.prototype.open = function(_args_) {
-    this.addEventListener('readystatechange', function() {
-      if (this.readyState === 4) {
-        var header = 'X-Web-Console-Session-Id';
-        var sessionId = this.getResponseHeader(header);
-        if (sessionId) {
-          REPLConsole.installInto('console');
-        }
-      }
-    }, false);
-    open.apply(this, arguments);
-  };
-})(XMLHttpRequest.prototype.open);
 ```
 
 ### Decorate Well-Known Command Outputs
