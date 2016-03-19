@@ -32,8 +32,9 @@ First, I will support general parts:
 * methods
 * constants
 
-And next, I will try to support extra parts like arguments with signature of method
-with document.
+And next, I will try to support extra parts like method's arguments with the signature.
+
+#### Sketch of use cases
 
 ![auto-completion](./auto-completion.svg.png)
 
