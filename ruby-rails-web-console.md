@@ -95,7 +95,7 @@ into the head of the `<head>` tag as following:
 </html>
 ```
 
-#### (Extra) Support a process of loading resources
+#### Extra task: Support a process of loading resources
 
 Supporting Web API is not convering "anywhere". We also need to support a process
 of loading resources by the `src` property of HTML tags (e.g., `<img>`, `<style>`).
