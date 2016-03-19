@@ -122,11 +122,13 @@ TBD
 
 #### Create more browser extensions
 
-TBD
+Last year we developed a prototype of a Google Chrome browser extension. This year,
+we make the Google Chrome one production ready and touch on Firefox and Safari support.
 
-#### Decorate well-known command outputs
+#### Decorate well-known command and its outputs
 
-TBD
+This feature is to color a command and its output. For example, if the command returns
+a string object, the string is colored by some color to distinguish with other types.
 
 ## 3. Milestones
 
