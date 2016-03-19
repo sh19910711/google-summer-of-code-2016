@@ -46,7 +46,7 @@ class Application < Rails::Application
 end
 ```
 
-#### Listen Web API accesses
+#### Listen Web API requests
 
 If the configuration like above is enabled, Web Console always inserts its script code
 into the head of the `<head>` tag as following:
