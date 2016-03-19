@@ -244,7 +244,7 @@ Here is a brief information:
 
 ### Why did you choose this project?
 
-Basically, whatever, I am interested in the tools from debugging, since it allows
+Basically, whatever, I am interested in the tools from debugging, because it allows
 me to eat my own dog food.
 
 ### Why are you interested in Open Source?
