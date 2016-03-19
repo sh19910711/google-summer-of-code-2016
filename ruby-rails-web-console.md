@@ -122,9 +122,9 @@ TBD
 
 #### Create more browser extensions
 
-Last year we have developed a prototype of a Google Chrome extension. This year,
-I will make the chrome extension is production ready, and touch on Firefox and Safari
-support.
+Last year I have developed a prototype of a Google Chrome extension and touched on
+a Firefox add-on. This year, I will make the chrome extension is production ready,
+and touch on Firefox and Safari support.
 
 #### Decorate well-known command and its outputs
 
