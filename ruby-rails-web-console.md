@@ -23,13 +23,13 @@ the list of possible commands from the prefix.
 
 ## 2. Description
 
-### Support auto-completion
+### I. Support auto-completion
 
 TBD
 
 ![auto-completion](./auto-completion.svg.png)
 
-### Console fired from Web API
+### II. Console fired from Web API
 
 Recently, Web Console have gotten to be able to spawn a console anywhere in a web
 app. However, it haven't supported requests like Web API yet, and so, precisely,
@@ -86,19 +86,21 @@ It is watching all requests via XMLHttpRequest, and if the response header conta
 
 I guess that we can also hijack resources loaded by the `src` property.
 
-### Decorate well-known command outputs
+### III. Built-in commands
+
+#### The `config` command: Client-side user options
 
 TBD
 
-### Client-side user options panel
-
-TBD
-
-### Context viewer panel
+#### The `ls` command: Context viewer
 
 TBD
 
 ### Create more browser extensions
+
+TBD
+
+### Decorate well-known command outputs
 
 TBD
 
