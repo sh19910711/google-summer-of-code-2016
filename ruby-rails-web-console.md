@@ -17,15 +17,16 @@ context of running code of the web app. It allows the developers to debug the we
 apps interactively.
 
 This project aims for making a better user experience for Web Console as a whole,
-and the main focus is to support "Auto-completion" feature in the console. For example,
-if people type the TAB key when typing the prefix of some commands, then it shows
-the list of possible commands from the prefix.
+and the main focus is to support "Auto-completion" feature in the console.
 
 ## 2. Description
 
 ### I. Support auto-completion
 
-I will support general parts in first:
+For example, if people type the TAB key when typing the prefix of some commands,
+then it shows the list of possible commands from the prefix.
+
+At first, to make it simpler, I will only support general parts:
 
 * `keywords`
 * `objects`
