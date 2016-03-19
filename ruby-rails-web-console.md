@@ -278,4 +278,4 @@ No.
 
 I need to participate GSoC because I have to earn money to live as a student.
 After GSoC, I want to keep contributing to Web Console and Ruby org (including
-Rails community).
+Ruby on Rails community).
