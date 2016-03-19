@@ -101,21 +101,29 @@ Supporting Web API is not covering "anywhere". We also need to support loading r
 by the `src` property of HTML tags (e.g., `<img>`, `<script>`). I guess that we can
 also hijack a process of them in the similar way as Web API.
 
-### III. Built-in commands
+### III. Add built-in commands and design its architecture
+
+TBD
 
 #### The `config` command: Client-side user options
 
 TBD
 
-#### The `ls` command: Context viewer
+#### The `ls` command: Show context information
 
 TBD
 
-### Create more browser extensions
+#### The `man` command: Read document
 
 TBD
 
-### Decorate well-known command outputs
+### IV. Other stuffs
+
+#### Create more browser extensions
+
+TBD
+
+#### Decorate well-known command outputs
 
 TBD
 
