@@ -25,14 +25,12 @@ the list of possible commands from the prefix.
 
 ### I. Support auto-completion
 
-First, I will support general parts:
+I will support general parts in first:
 
 * keywords
 * objects
 * methods
 * constants
-
-And next, I will try to support extra parts like method's arguments with the signature.
 
 #### Sketch of use cases
 
