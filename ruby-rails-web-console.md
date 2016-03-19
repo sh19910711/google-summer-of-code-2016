@@ -21,10 +21,11 @@ and the main focus is to support "Auto-completion" feature in the console.
 
 ## 2. Description
 
-### I. Support auto-completion
+### I. Support "auto-completion"
 
-For example, if people type the TAB key when typing the prefix of some commands,
-then it shows the list of possible commands from the prefix.
+It is a feature to to help typing commands. For example, if people type the TAB
+key when typing the prefix of some commands, then it shows the list of possible
+commands from the prefix.
 
 At first, to make it simpler, I will only support general parts:
 
