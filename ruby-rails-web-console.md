@@ -25,7 +25,15 @@ the list of possible commands from the prefix.
 
 ### I. Support auto-completion
 
-TBD
+First, I will support general parts:
+
+* keywords
+* objects
+* methods
+* constants
+
+And next, I will try to support extra parts like arguments with signature of method
+with document.
 
 ![auto-completion](./auto-completion.svg.png)
 
