@@ -122,11 +122,14 @@ from the console. We can define a command as a Ruby script code which contains s
 class inheritating the `WebConsole::Command` class.
 
 The commands are loaded automatically from load paths, so there exists not only pre-defined
-commands, but also the user-defined built-in commands.
+built-in commands but also user-defined built-in commands.
 
-I would need my mentor's help to design the architecture of the built-in command system.
+Probably, I might need my mentor's help to design the architecture of the built-in
+command system.
 
-#### Base Class
+#### Pseudo codes
+
+##### Example of base class
 
 ```ruby
 class WebConsole::Command
@@ -141,7 +144,7 @@ class WebConsole::Command
 end
 ```
 
-#### Example of server-side command
+##### Example of server-side command
 
 ```ruby
 # lib/web_console/commands/list.rb
@@ -169,7 +172,7 @@ class List < WebConsole::Command
 end
 ```
 
-#### Example of client-side command
+##### Example of client-side command
 
 ```ruby
 # lib/web_console/commands/config.rb
