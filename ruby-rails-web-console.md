@@ -230,15 +230,28 @@ class Config < WebConsole::Command
 end
 ```
 
-#### The `config` command: Client-side user options
+#### Pre-defined commands
+
+##### The `config` command: Client-side user options
+
+```
+>> config
+   [ ] Enable auto-completion
+   [ ] Enable colored console
+   [ ] ...
+                              [OK] [Cancel]
+```
+
+```
+>> config completion=true
+Updated.
+```
+
+##### The `ls` command: Show context information
 
 TBD
 
-#### The `ls` command: Show context information
-
-TBD
-
-#### The `man` command: Read document
+##### The `man` command: Read document
 
 TBD
 
