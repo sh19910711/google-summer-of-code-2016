@@ -254,9 +254,9 @@ end
 >> ls
 local_var, @instance_var, method
 >> ls SomeClass
-   ::new, ::module_exec, ::class_exec, ...
+   ::new, ::module_exec, ::class_exec, ..., #foo, #bar, ...
 >> ls SomeClass.new
-   #foo, #bar
+   .foo, .bar
 >> SomeClass.new.foo
 => "foo!!"
 ```
