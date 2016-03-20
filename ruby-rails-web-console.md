@@ -185,6 +185,9 @@ end
 
 ##### Example of client-side commands
 
+The client-side command can provide us the ways to access to JavaScript of Web Console.
+For example, we can manipulate a client-side configuration using interactive components.
+
 ```ruby
 # lib/web_console/commands/config.rb
 class Config < WebConsole::Command
