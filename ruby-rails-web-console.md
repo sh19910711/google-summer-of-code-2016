@@ -131,6 +131,10 @@ command system.
 
 ##### Example of base class
 
+The base class has overrided methods and helper methods in order to define a command
+class. The command class inherites this class and defines its behavior.
+
+
 ```ruby
 class WebConsole::Command
   # This method should be overrided in client-side commands.
@@ -145,6 +149,11 @@ end
 ```
 
 ##### Example of server-side command
+
+The server-side command can provide us the ways to access to a session of Web Console.
+We can handle information of the current context, and return the result of that.
+For example, if the `man` command receives a name of a method, then it finds document
+of the method and returns the content of document as the command output.
 
 ```ruby
 # lib/web_console/commands/list.rb
