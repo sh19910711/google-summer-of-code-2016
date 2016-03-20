@@ -55,7 +55,7 @@ And next, I will try to support extra parts like `methods`.
 
 #### Sketch of use cases
 
-![auto-completion](./auto-completion.svg.png)
+![auto-completion](https://sh19910711.github.io/google-summer-of-code-2016/auto-completion.svg.png)
 
 ### # II. Console fired from "anywhere"
 
