@@ -307,14 +307,16 @@ a string object, the string is colored by some color to distinguish with other t
 
 * Implement the auto-completion feature
 * Test the auto-completion feature
-* Support colored console
+* Extra tasks
+  - Support colored console
 
 ### The Second Term (28 Jun. - 23 Aug.)
 
 * Create built-in commmand system
 * Test built-in command feature
-* Create Firefox add-on and Safari extension
-* Documentation of new features
+* Extra tasks
+  - Create Firefox add-on and Safari extension
+  - Documentation of new features
 
 ## 4. Experience
 
@@ -415,9 +417,10 @@ source code but also approaches how to create software. There are many things to
 learn from open source. For example, I like testing software, and I have been able
 to learn many things about testing from open source.
 
-### How long will the project take? When can you begin?
+### When can you begin the project?
 
-I can start the project immediately.
+I can start the project immediately, since I don't need to take time for the community
+bonding period.
 
 ### How much time do you expect to dedicate to this project?
 
