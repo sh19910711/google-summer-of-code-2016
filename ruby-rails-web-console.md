@@ -254,7 +254,7 @@ It might be for sure that we can create more commands.
 
 ```
 >> ls
-local_var, @instance_var, method
+   local_var, @instance_var, method
 >> ls SomeClass
    ::new, ::module_exec, ::class_exec, ..., #foo, #bar, ...
 >> ls SomeClass.new
@@ -267,13 +267,12 @@ local_var, @instance_var, method
 
 ```
 >> man WebConsole::Session.find
-WebConsole::Session.find(id) => Object
--------------------------------------------
-Finds a persisted session in memory by its id.
+   WebConsole::Session.find(id) => Object
+   -------------------------------------------
+   Finds a persisted session in memory by its id.
 
-Returns a persisted session if found in memory. Raises NotFound error unless
-found in memory.
-
+   Returns a persisted session if found in memory. Raises NotFound error unless
+   found in memory.
 >> WebConsole::Session.find(session_id)
 => ...
 >>
