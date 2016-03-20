@@ -214,13 +214,13 @@ TBD
 
 ### IV. Extra stuffs
 
-#### Create more browser extensions
+#### More browser extensions
 
 Last year I have developed a prototype of a Google Chrome extension and touched on
 a Firefox add-on. This year, I will make the chrome extension is production ready,
 and touch on Firefox and Safari support.
 
-#### Decorate well-known command and its outputs
+#### Colored Console
 
 This feature is to color a command and its output. For example, if the command returns
 a string object, the string is colored by some color to distinguish with other types.
