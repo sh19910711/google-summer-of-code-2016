@@ -117,6 +117,10 @@ also hijack a process of them in the similar way as Web API.
 
 ### # III. Create built-in commands and its architecture
 
+A built-in command is a command that can call server-side or client-side functions
+from the console. We can define a command as a script which contains single class
+inheritating the WebConsole::Command class.
+
 #### Base Class
 
 ```ruby
