@@ -104,7 +104,25 @@ also hijack a process of them in the similar way as Web API.
 
 ### III. Create built-in commands and its architecture
 
-TBD
+```ruby
+# lib/web_console/commands/list_command.rb
+class ListCommand < WebConsole::Command
+  def action(session_id, ctx = 'self')
+    s = WebConsole::Session.find(session_id)
+    @local_variables = s.eval_raw("#{ctx}.local_variables if #{ctx}.respond_to?(:local_variables)")
+    @instance_variables = s.eval_raw("#{ctx}.instance_variables if #{ctx}.respond_to?(:instance_variables)")
+    @methods = s.eval_raw("#{ctx}.methods if #{ctx}.respond_to?(:methods)")
+  end
+
+  def result
+    <<-EOF
+    local variables: #{@local_variables.join(', ')}
+    instance variables: #{@instance_variables.join(', ')}
+    methods: #{@methods.join(', ')}
+    EOF
+  end
+end
+```
 
 #### The `config` command: Client-side user options
 
