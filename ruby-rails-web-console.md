@@ -112,9 +112,8 @@ class WebConsole::Command
   # As default, it will communicate with a server-side action.
   def script
     <<-EOF
-      // Send request to the server
-      // Call the action method
-      // Render the result to the console
+      // Send request to the server to call an action method.
+      // And then, render the result to the console.
     EOF
   end
 end
