@@ -122,7 +122,7 @@ class List < WebConsole::Command
     @methods = s.eval_raw("#{ctx}.methods if #{ctx}.respond_to?(:methods)")
   end
 
-  def result
+  def view
     <<-EOF
     local variables: #{@local_variables.join(', ')}
     instance variables: #{@instance_variables.join(', ')}
@@ -137,37 +137,40 @@ end
 ```ruby
 # lib/web_console/commands/config.rb
 class Config < WebConsole::Command
+  usage <<-EOF
+    config [key=value]
+    ...
+  EOF
+
   def script
     <<-EOF
-      // Let "console" is REPLConsole.currentSession.
-      var closed = new REPLConsole.Deferred;
-      var configView = ...;
+      // This function is called when the command is called on console.
+      function(expr) {
+        // Let "console" is REPLConsole.currentSession.
+        var confirmed = new REPLConsole.Deferred;
 
-      console.commands.config = function(expr) {
+        var configView = ...;
+        configView.onChange = function(key, value) {
+          console.setConfig(key, value);
+        };
+        configView.onClose = function() {
+          console.removeBelowConsole(configView);
+          confirmed.resolved(); // new prompt is created
+        };
+
         if (expr != "") {
           // e.g., "key=value"
-          var key = parseKey(expr);
-          var value = parseKey(expr);
-          console.setConfig(key, value);
-          return "OK";
+          console.setConfig(parseKey(expr), parseValue(expr));
+          return "updated";
         } else {
           // Show config view
           console.addBelowConsole(configView);
           return closed; // We can stop creating new prompt by a Deferred object.
         }
-      };
 
-      configView.onChange = function(key, value) {
-        console.setConfig(key, value);
-      };
-
-      configView.onConfirmed = function() {
-        console.removeBelowConsole(configView);
-        closed.resolved(); // new prompt is created
-      };
-
-      function parseKey(expr) { ... }
-      function parseValue(expr) { ... }
+        function parseKey(expr) { ... }
+        function parseValue(expr) { ... }
+      }
     EOF
   end
 end
