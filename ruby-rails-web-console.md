@@ -21,6 +21,13 @@ and the main focus is to support "auto-completion" feature in the console.
 
 ## 2. Description
 
+This year, I will work on four subjects:
+
+* Support "auto-completion"
+* Console fired from "anywhere"
+* Create built-in commands and its architecture
+* Other stuffs (more browser extensions, colored console)
+
 ### I. Support "auto-completion"
 
 It is a feature to help typing commands. For example, if people type the TAB key
