@@ -298,15 +298,15 @@ a string object, the string is colored by some color to distinguish with other t
 
 ## 3. Milestones
 
-### Community bonding period (22 Apr. - 22 May.)
+### Community Bonding Period (22 Apr. - 22 May.)
 
 * TBD
 
-### The first term (23 May. - 27 Jun.)
+### The First Term (23 May. - 27 Jun.)
 
 * TBD
 
-### The second term (28 Jun. - 23 Aug.)
+### The Second Term (28 Jun. - 23 Aug.)
 
 * TBD
 
