@@ -21,14 +21,14 @@ and the main focus is to support "auto-completion" feature in the console.
 
 ## 2. Description
 
-This year, I will work on four subjects:
+In GSoC terms, I would be working on three subjects:
 
-* Auto-completion
-* Console fired from "anywhere"
-* Built-in commands
+* _Auto-completion_
+* Console fired from _"anywhere"_
+* _Built-in commands_
 * And other stuffs
-  - More browser extensions
-  - Colored console
+  - More _browser extensions_
+  - _Colored console_
 
 ### I. Support "auto-completion"
 
