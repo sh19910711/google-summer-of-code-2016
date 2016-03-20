@@ -21,7 +21,7 @@ is to help us typing commands speedy and quickly on console.
 
 Also, this project is getting into ways to extend Web Console. The main goal of
 the project is to create _built-in commands_ and its architecture, which makes Web
-Console more extendable, and opens the door to yet another developers.
+Console more extendable, and it can open the door to yet another contributors.
 
 ## 2. Description
 
