@@ -300,15 +300,21 @@ a string object, the string is colored by some color to distinguish with other t
 
 ### Community Bonding Period (22 Apr. - 22 May.)
 
-* TBD
+* Support the console fired from Web API
+* Design the architecture of built-in commands
 
 ### The First Term (23 May. - 27 Jun.)
 
-* TBD
+* Implement the auto-completion feature
+* Test the auto-completion feature
+* Support colored console
 
 ### The Second Term (28 Jun. - 23 Aug.)
 
-* TBD
+* Create built-in commmand system
+* Test built-in command feature
+* Create Firefox add-on and Safari extension
+* Documentation of new features
 
 ## 4. Experience
 
@@ -411,7 +417,7 @@ to learn many things about testing from open source.
 
 ### How long will the project take? When can you begin?
 
-TBD
+I can start the project immediately.
 
 ### How much time do you expect to dedicate to this project?
 
