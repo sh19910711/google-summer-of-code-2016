@@ -73,7 +73,7 @@ the target element. Last year, I have added "`X-Web-Console-Session-Id`" as a cu
 header for browser extensions, and so we can use this header to detect either the
 `console` method is fired.
 
-And so, if the configuration like above is enabled, Web Console always inserts its script code
+And so, if a configuration like the above is enabled, Web Console always inserts its script code
 into the head of the `<head>` tag as following:
 
 ```html
