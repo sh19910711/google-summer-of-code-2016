@@ -266,10 +266,12 @@ local_var, @instance_var, method
 ```
 >> man WebConsole::Session.find
 WebConsole::Session.find.find(id) => Object
+-------------------------------------------
 
 Finds a persisted session in memory by its id.
 
-Returns a persisted session if found in memory. Raises NotFound error unless found in memory.
+Returns a persisted session if found in memory. Raises NotFound error unless
+found in memory.
 >> WebConsole::Session.find(session_id)
 => ...
 >>
