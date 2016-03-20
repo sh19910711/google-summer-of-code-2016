@@ -304,6 +304,7 @@ a string object, the string is colored by some color to distinguish with other t
 ### Community Bonding Period (22 Apr. - 22 May.)
 
 * Support the console fired from Web API
+* Design the auto-completion feature
 * Design the architecture of built-in commands
 
 ### The First Term (23 May. - 27 Jun.)
