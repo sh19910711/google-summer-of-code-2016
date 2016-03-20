@@ -34,6 +34,7 @@ In GSoC 2016 terms, I would be working on three subjects:
   - More _browser extensions_
   - _Colored console_
 
+Worthly, all features would be working on the inner of console, without browser extensions.
 The below content describes of them.
 
 ### # I. Support "auto-completion"
