@@ -153,7 +153,7 @@ end
 The server-side command can provide us the ways to access to a session of Web Console.
 We can handle information of the current context, and return the result of that.
 For example, if the `man` command receives a name of a method, then it finds document
-of the method and returns the content of document as the command output.
+of the method and returns the content of the document as the command output.
 
 ```ruby
 # lib/web_console/commands/list.rb
