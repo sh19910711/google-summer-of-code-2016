@@ -104,6 +104,22 @@ also hijack a process of them in the similar way as Web API.
 
 ### III. Create built-in commands and its architecture
 
+#### Base Class
+
+```ruby
+class WebConsole::Command
+  # This method should be overrided in client-side commands.
+  # As default, it will communicate with a server-side action.
+  def script
+    <<-EOF
+      // Send request to the server
+      // Call the action method
+      // Render the result to the console
+    EOF
+  end
+end
+```
+
 #### Example of server-side command
 
 ```ruby
