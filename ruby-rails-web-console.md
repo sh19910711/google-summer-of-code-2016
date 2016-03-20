@@ -278,6 +278,11 @@ It might be for sure that we can create more commands.
 >>
 ```
 
+#### User defined built-in commands
+
+We can define the built-in commands from out side of Web Console, and also we can
+distribute their commands through the RubyGems org.
+
 ### # IV. Extra stuffs
 
 #### More browser extensions
