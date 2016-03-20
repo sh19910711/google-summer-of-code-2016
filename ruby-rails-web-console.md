@@ -19,7 +19,7 @@ This project aims to make a better user experience for Web Console as a whole,
 and the main focus is to support ___"auto-completion"___ feature, which is to help us
 typing commands speedy and quickly on the console.
 
-Also, this project is getting into ways to extend Web Console. The main goal of
+And also, this project is getting into ways to extend Web Console. The other goal of
 the project is to create ___"built-in commands"___ and its architecture, which makes Web
 Console more extendable, and it can open the door to yet another contributors.
 
