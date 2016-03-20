@@ -298,23 +298,15 @@ a string object, the string is colored by some color to distinguish with other t
 
 ## 3. Milestones
 
-Here is a timeline:
-
-### 22 Apr. - 22 May.
-
-#### Milestone #0: TBD (Community Bonding Period):
+### Community bonding period (22 Apr. - 22 May.)
 
 * TBD
 
-### 23 May. - 27 Jun.
-
-#### Milestone #1: TBD (First-Term)
+### The first term (23 May. - 27 Jun.)
 
 * TBD
 
-### 28 Jun. - 23 Aug.
-
-#### Milestone #2: TBD (Second-Term)
+### The second term (28 Jun. - 23 Aug.)
 
 * TBD
 
