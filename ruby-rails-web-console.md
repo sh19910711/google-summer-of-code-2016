@@ -244,7 +244,8 @@ end
 
 ```
 >> config completion=true
-Updated.
+=> Updated.
+>>
 ```
 
 ##### The `ls` command: Show context information
