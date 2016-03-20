@@ -23,8 +23,8 @@ And also, this project is getting into ways to extend Web Console. The other goa
 the project is to create ___"built-in commands"___ and its architecture, which makes Web
 Console more extendable, and it can open the door to yet another contributors.
 
-Finally, this project aims for making all features to be working on the inner of
-console.
+A point worthy of special mention is that the above features are working on the inner
+of console, and it does not need new things on HTML.
 
 ## 2. Description
 
