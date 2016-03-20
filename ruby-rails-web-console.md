@@ -219,7 +219,7 @@ class Config < WebConsole::Command
         } else {
           // Show config view
           console.addBelowConsole(configView);
-          return closed; // We can stop creating new prompt by a Deferred object.
+          return confirmed; // We can stop creating new prompt by a Deferred object.
         }
 
         function parseKey(expr) { ... }
