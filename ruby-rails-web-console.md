@@ -284,9 +284,9 @@ Here is a brief information:
 
   This is my open source software written in Ruby.
   It is a snippet manager for programming competitions.
+
   * URL: https://social-snippet.github.io
   * URL: https://github.com/social-snippet/social-snippet
-  * Sub Projects: https://github.com/social-snippet
 
 - duck-lang (C, Language)
 
@@ -299,6 +299,7 @@ Here is a brief information:
 
   This is my open source software written in Ruby.
   It is a Git extension for programming competitions (e.g, Google Code Jam).
+
   * URL: https://github.com/sh19910711/git-contest
   * Poster for "Ruby World Conference 2014" in Japan
 
@@ -306,28 +307,24 @@ Here is a brief information:
 
   Git is a free and open source distributed version control system.
   I added small improvement [1] of git-fsck command.
+
   * URL: http://git-scm.com/
-  * Commit: https://github.com/git/git/commit/effd12ec876df016d4346fee0d3d6bf31308fa11
+  * My Commit: https://github.com/git/git/commit/effd12ec876df016d4346fee0d3d6bf31308fa11
 
 - tilt-fs (Ruby)
 
   This is my open source software written in Ruby.
   It is a userspace filesystem based on Tilt.
+
   * URL: https://github.com/sh19910711/ruby-tilt-fs
 
 - search-plus (Chrome Extension)
 
   This is my open source software (WIP).
   It can find all tabs you're looking for.
+
   * URL: https://chrome.google.com/webstore/detail/search-plus/cdpohbejnbclggljmoijjcpdhbaaijfm
   * URL (WIP): https://github.com/sh19910711/crx-search-plus
-
-- Scrimmage/karma-slim-preprocessor (JavaScript, Testing)
-
-  Karma Plugin to compile slim to html on testing.
-  I added supports for command-line options.
-  * PR: https://github.com/Scrimmage/karma-slim-preprocessor/pull/3
-  * URL: https://github.com/Scrimmage/karma-slim-preprocessor
 
 - Other Projects and Activities
 
