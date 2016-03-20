@@ -21,7 +21,7 @@ and the main focus is to support "auto-completion" feature in the console.
 
 ## 2. Description
 
-In GSoC terms, I would be working on three subjects:
+In GSoC 2016 terms, I would be working on three subjects:
 
 * _Auto-completion_
 * Console fired from _"anywhere"_
