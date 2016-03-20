@@ -24,7 +24,7 @@ the project is to create ___"built-in commands"___ and its architecture, which m
 Console more extendable, and it can open the door to yet another contributors.
 
 A point worthy of special mention is that the above features are working on the inner
-of console, and it does not need new things on HTML.
+of console, and it basically does not need new things for the HTML view of Web Console.
 
 ## 2. Description
 
