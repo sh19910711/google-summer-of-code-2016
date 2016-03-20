@@ -315,7 +315,7 @@ a string object, the string is colored by some color to distinguish with other t
 ### GSoC 2015
 
 Last year, I have developed a prototype of a Google Chrome browser extension (see [rails/web-console#151](https://github.com/rails/web-console/pull/151)), and
-have tackled the client-side testing environment (see [rails/web-console#138](https://github.com/rails/web-console/pull/138)). My mentor [@gsamokovarov](https://github.com/gsamokovarov) took
+have tackled into the client-side testing environment (see [rails/web-console#138](https://github.com/rails/web-console/pull/138)). My mentor [@gsamokovarov](https://github.com/gsamokovarov) took
 enough time to review my patches, and he gave me many valuable advices. In the process,
 I have had many rejects, but thanks to that I had been able to write a pretty solid
 code as a whole.
