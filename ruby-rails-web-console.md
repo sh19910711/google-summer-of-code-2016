@@ -148,7 +148,7 @@ class WebConsole::Command
 end
 ```
 
-##### Example of server-side command
+##### Example of server-side commands
 
 The server-side command can provide us the ways to access to a session of Web Console.
 We can handle information of the current context, and return the result of that.
@@ -181,7 +181,7 @@ class List < WebConsole::Command
 end
 ```
 
-##### Example of client-side command
+##### Example of client-side commands
 
 ```ruby
 # lib/web_console/commands/config.rb
