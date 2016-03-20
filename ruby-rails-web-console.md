@@ -139,10 +139,31 @@ end
 class Config < WebConsole::Command
   def script
     <<-EOF
-      WebConsole.commands.config = function(configExpr) {
-        var key = parseKey(configExpr);
-        var value = parseValue(configExpr);
-        WebConsole.setConfig(key, value);
+      // Let "console" is REPLConsole.currentSession.
+      var closed = new REPLConsole.Deferred;
+      var configView = ...;
+
+      console.commands.config = function(expr) {
+        if (expr != "") {
+          // e.g., "key=value"
+          var key = parseKey(expr);
+          var value = parseKey(expr);
+          console.setConfig(key, value);
+          return "OK";
+        } else {
+          // Show config view
+          console.addBelowConsole(configView);
+          return closed; // We can stop creating new prompt by a Deferred object.
+        }
+      };
+
+      configView.onChange = function(key, value) {
+        console.setConfig(key, value);
+      };
+
+      configView.onConfirmed = function() {
+        console.removeBelowConsole(configView);
+        closed.resolved(); // new prompt is created
       };
 
       function parseKey(expr) { ... }
