@@ -265,7 +265,7 @@ local_var, @instance_var, method
 
 ```
 >> man WebConsole::Session.find
-WebConsole::Session.find.find(id) => Object
+WebConsole::Session.find(id) => Object
 -------------------------------------------
 Finds a persisted session in memory by its id.
 
