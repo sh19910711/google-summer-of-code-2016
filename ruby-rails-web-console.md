@@ -250,11 +250,30 @@ end
 
 ##### The `ls` command: Show context information
 
-TBD
+```
+>> ls
+local_var, @instance_var, method
+>> ls SomeClass
+   ::new, ::module_exec, ::class_exec, ...
+>> ls SomeClass.new
+   #foo, #bar
+>> SomeClass.new.foo
+=> "foo!!"
+```
 
 ##### The `man` command: Read document
 
-TBD
+```
+>> man WebConsole::Session.find
+WebConsole::Session.find.find(id) => Object
+
+Finds a persisted session in memory by its id.
+
+Returns a persisted session if found in memory. Raises NotFound error unless found in memory.
+>> WebConsole::Session.find(session_id)
+=> ...
+>>
+```
 
 ### # IV. Extra stuffs
 
