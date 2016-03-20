@@ -121,8 +121,8 @@ _A built-in command_ is a command that can call server-side or client-side funct
 from the console. We can define a command as a Ruby script code which contains single
 class inheritating the `WebConsole::Command` class.
 
-The commands are loaded automatically from load paths, so there exists not only pre-defined
-built-in commands but also user-defined built-in commands.
+The commands are loaded automatically from load paths, so we can use not only pre-defined
+built-in commands but also user-defined built-in commands on the console.
 
 Probably, I might need my mentor's help to design the architecture of the built-in
 command system.
