@@ -16,8 +16,12 @@ The console is displayed in the current page of the browser, and its session sto
 context of running code of the web app. It allows the developers to debug the web
 apps interactively.
 
-This project aims for making a better user experience for Web Console as a whole,
-and the main focus is to support "auto-completion" feature in the console.
+This project aims to make a better user experience for Web Console as a whole,
+and the main focus is to support "auto-completion" feature in the console. The feature
+is to help typing commands on console.
+
+And also, this project is getting into ways to extend Web Console. The main goal of
+the project is to create built-in commands and design its architecture.
 
 ## 2. Description
 
