@@ -281,7 +281,7 @@ It might be for sure that we can create more commands.
 #### Extra task: User defined built-in commands
 
 We can define the built-in commands from out side of Web Console, and also we can
-publish their commands through the RubyGems, and install them using Bundler.
+publish the commands on the RubyGems, and it makes them easy to install with Bundler.
 
 ### # IV. Extra stuffs
 
