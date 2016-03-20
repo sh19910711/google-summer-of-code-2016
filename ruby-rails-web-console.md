@@ -423,7 +423,7 @@ to learn many things about testing from open source.
 ### When can you begin the project?
 
 I can start the project immediately, since I don't need to take time for the community
-bonding period.
+bonding.
 
 ### How much time do you expect to dedicate to this project?
 
