@@ -230,7 +230,7 @@ class Config < WebConsole::Command
 end
 ```
 
-#### Pre-defined commands
+#### Examples of pre-defined built-in commands
 
 ##### The `config` command: Client-side user options
 
