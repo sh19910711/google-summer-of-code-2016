@@ -212,14 +212,14 @@ class Config < WebConsole::Command
           confirmed.resolved(); // new prompt is created
         };
 
-        if (expr != "") {
-          // e.g., "key=value"
-          console.setConfig(parseKey(expr), parseValue(expr));
-          return "updated";
-        } else {
+        if (expr == "") {
           // Show config view
           console.addBelowConsole(configView);
-          return confirmed; // We can stop creating new prompt by a Deferred object.
+          return confirmed; // Stop creating new prompt by a Deferred object.
+        } else {
+          // e.g., "key=value"
+          console.setConfig(parseKey(expr), parseValue(expr));
+          return "updated"; // Not stop creating new prompt in this case
         }
 
         function parseKey(expr) { ... }
