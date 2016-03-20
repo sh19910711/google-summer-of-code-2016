@@ -13,12 +13,11 @@
 _[Web Console](https://github.com/rails/web-console)_ is a debugging tool for the web apps built with Ruby on Rails. In order
 to debug the web apps, It provides an interactive Ruby session to the developers.
 The console is displayed in the current page of the browser, and its session stores
-context of running code of the web app. It allows the developers to debug the web
-apps interactively.
+context of running code of the web app. It allows us to debug the web apps interactively.
 
 This project aims to make a better user experience for Web Console as a whole,
-and the main focus is to support _"auto-completion"_ feature in the console. The feature
-is to help typing commands on console.
+and the main focus is to support _"auto-completion"_ feature in the console, which
+is to help us typing commands speedy and quickly on console.
 
 Also, this project is getting into ways to extend Web Console. The main goal of
 the project is to create _built-in commands_ and its architecture. It makes Web Console
