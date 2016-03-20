@@ -104,9 +104,17 @@ also hijack a process of them in the similar way as Web API.
 
 ### III. Create built-in commands and its architecture
 
+#### Example of server-side command
+
 ```ruby
-# lib/web_console/commands/list_command.rb
-class ListCommand < WebConsole::Command
+# lib/web_console/commands/list.rb
+class List < WebConsole::Command
+  short_name "ls"
+  usage <<-EOF
+    ls [Context]...
+    ...
+  EOF
+
   def action(session_id, ctx = 'self')
     s = WebConsole::Session.find(session_id)
     @local_variables = s.eval_raw("#{ctx}.local_variables if #{ctx}.respond_to?(:local_variables)")
@@ -119,6 +127,26 @@ class ListCommand < WebConsole::Command
     local variables: #{@local_variables.join(', ')}
     instance variables: #{@instance_variables.join(', ')}
     methods: #{@methods.join(', ')}
+    EOF
+  end
+end
+```
+
+#### Example of client-side command
+
+```ruby
+# lib/web_console/commands/config.rb
+class Config < WebConsole::Command
+  def script
+    <<-EOF
+      WebConsole.commands.config = function(configExpr) {
+        var key = parseKey(configExpr);
+        var value = parseValue(configExpr);
+        WebConsole.setConfig(key, value);
+      };
+
+      function parseKey(expr) { ... }
+      function parseValue(expr) { ... }
     EOF
   end
 end
