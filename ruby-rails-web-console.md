@@ -34,7 +34,7 @@ In GSoC 2016 terms, I would be working on three subjects:
   - More _browser extensions_
   - _Colored console_
 
-### I. Support "auto-completion"
+### # I. Support "auto-completion"
 
 It is a feature to help typing commands. For example, if people type the TAB key
 when typing the prefix of some commands, then it shows the list of possible commands
@@ -52,7 +52,7 @@ And next, I will try to support extra parts like `methods`.
 
 ![auto-completion](./auto-completion.svg.png)
 
-### II. Console fired from "anywhere"
+### # II. Console fired from "anywhere"
 
 Recently, Web Console have gotten to be able to spawn a console anywhere in a web
 app. However, it haven't supported requests like Web API yet, and so, precisely,
@@ -115,7 +115,7 @@ Supporting Web API is not covering "anywhere". We also need to support loading r
 by the `src` property of HTML tags (e.g., `<img>`, `<script>`). I guess that we can
 also hijack a process of them in the similar way as Web API.
 
-### III. Create built-in commands and its architecture
+### # III. Create built-in commands and its architecture
 
 #### Base Class
 
@@ -216,7 +216,7 @@ TBD
 
 TBD
 
-### IV. Extra stuffs
+### # IV. Extra stuffs
 
 #### More browser extensions
 
