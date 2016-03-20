@@ -34,6 +34,8 @@ In GSoC 2016 terms, I would be working on three subjects:
   - More _browser extensions_
   - _Colored console_
 
+The below content describes of them.
+
 ### # I. Support "auto-completion"
 
 It is a feature to help typing commands. For example, if people type the TAB key
