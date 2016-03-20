@@ -23,6 +23,9 @@ And also, this project is getting into ways to extend Web Console. The other goa
 the project is to create ___"built-in commands"___ and its architecture, which makes Web
 Console more extendable, and it can open the door to yet another contributors.
 
+Finally, this project aims for making all features to be working on the inner of
+console.
+
 ## 2. Description
 
 In GSoC 2016 terms, I would be working on three subjects:
@@ -34,7 +37,6 @@ In GSoC 2016 terms, I would be working on three subjects:
   - More _browser extensions_
   - _Colored console_
 
-Worthly, all features would be working on the inner of console, without browser extensions.
 The below content describes of them.
 
 ### # I. Support "auto-completion"
