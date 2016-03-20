@@ -23,10 +23,12 @@ and the main focus is to support "auto-completion" feature in the console.
 
 This year, I will work on four subjects:
 
-* Support "auto-completion"
+* Auto-completion
 * Console fired from "anywhere"
-* Create built-in commands and its architecture
-* Other stuffs (more browser extensions, colored console)
+* Built-in commands
+* And other stuffs
+  - More browser extensions
+  - Colored console
 
 ### I. Support "auto-completion"
 
